@@ -1,0 +1,2 @@
+C:/Users/palan/OneDrive/Desktop/New folder (2)/InnovFit-main/InnovFit-main/android/app/.cxx/Debug/rh5c5a2s/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/palan/OneDrive/Desktop/New folder (2)/InnovFit-main/InnovFit-main/android/app/.cxx/Debug/rh5c5a2s/x86_64/CMakeFiles/rebuild_cache.dir

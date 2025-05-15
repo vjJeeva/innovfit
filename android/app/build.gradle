@@ -1,0 +1,44 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'dev.flutter.flutter-gradle-plugin'
+}
+
+android {
+    compileSdk 35
+    namespace 'com.codeforany.fitness'
+
+    defaultConfig {
+        applicationId 'com.codeforany.fitness'
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName '1.0'
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.debug // Update to proper signing config for release
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_21
+        targetCompatibility JavaVersion.VERSION_21
+    }
+
+    kotlin {
+        jvmToolchain(21)
+    }
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    implementation 'androidx.core:core:1.16.0'
+    implementation 'androidx.core:core-ktx:1.16.0'
+    // Add this line
+    implementation 'io.flutter:flutter_embedding_debug:1.0.0-cf56914b326edb0ccb123ffdc60f00060bd513fa'
+}
